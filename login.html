@@ -28,14 +28,14 @@
         <form action="">
 
             <div class="inputBx">
-                <input type="text" required="required"> 
-                <span>Login</span>
+                <input type="text" required="required" maxlength="14" oninput="formatarCPF(this)"> 
+                <span>Login: CPF</span>
                 <i class="fas fa-user-circle"></i>
             </div>
 
                 <div class="inputBx password">
                     <input id="password-input" type="password" name="password" required="required">
-                                      <span>password</span>
+                                      <span>Password</span>
                     <a href="#" class="password-control" onclick="return show_hide_password(this);"></a> 
                     <i class="fas fa-key"></i>
                 </div>
