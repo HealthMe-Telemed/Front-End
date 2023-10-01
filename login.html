@@ -32,7 +32,7 @@
                         <form action="">
 
                             <div class="inputBx">
-                                <input type="text" required="required" name="cpf" maxlength="14"
+                                <input type="text" required="required" name="cpf" maxlength="14" pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$" 
                                     oninput="formatarCPF(this)">
                                 <span>Login: CPF</span>
                                 <i class="fas fa-user-circle"></i>
